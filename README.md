@@ -2,9 +2,10 @@
 
 
 You need to enable the pins with uBoot overlays:
+
 You need to edit /boot/uEnv.txt:
 
-Change these two lines: (Change as per SPI that you are used)
+Change these lines: (Change as per SPI that you are used)
 
 #uboot_overlay_addr5=<file5>.dtbo
 to
